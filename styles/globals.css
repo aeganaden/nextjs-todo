@@ -17,7 +17,7 @@ a {
   text-decoration: none;
   background-size: 0em 0.2em;
   background-position: 0 88%;
-  @apply text-primary p-2 bg-no-repeat transition-all duration-200 bg-gradient-to-r from-secondary to-secondary;
+  @apply text-primary-dark p-2 bg-no-repeat transition-all duration-200 bg-gradient-to-r from-primary-dark to-primary-dark;
 }
 
 a:hover {
@@ -33,4 +33,8 @@ a:focus {
 
 h1 {
   @apply text-primary;
+}
+
+button {
+  @apply bg-primary-light hover:bg-primary hover:text-primary-light max-w-max text-primary-dark py-2 px-4 rounded inline-flex items-center;
 }

@@ -1,0 +1,7 @@
+.bannerType {
+  @apply text-sm font-bold;
+}
+
+.description {
+  @apply text-primary;
+}
